@@ -3,7 +3,7 @@ Transformers Roberta(base) 모델을 활용한 감성분석(시트콤 Friends da
 
 ## 실행방법
 
-0. src 폴더의 'friends모델_v3_roberta_submit.py' 복사
+0. src 폴더의 'friends모델_v3_roberta_submit_best.py' 복사
 혹은 
 https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sharing 실행
 1. 구글 colab에서 실행하는 것을 권고(아래 방법은 구글 colab 실행 기준)
@@ -12,6 +12,12 @@ https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sh
 3. raw data에 있는 'Friends' 폴더를 다운받아 구글 드라이브 'drive/MyDrive'경로에 설치
 4. 구글 colab 런타임 유형 변경 > GPU환경
 5. 모두 실행
+
+## 모델별 실행결과
+- src 폴더의 'friends모델_v3_roberta_submit_best.py' 가 가장 성능 우수
+
+
+
 
 ## 참고 소스코드 및 문헌
 ### Hugging Face BERT Chris McCormick의 오픈소스 
