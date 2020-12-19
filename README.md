@@ -3,7 +3,7 @@ Transformers Roberta(base) 모델을 활용한 감성분석(시트콤 Friends da
 
 # 실행방법
 
-0. src 폴더의 'Friends모델_v3_roberta_submit.ipynb' 복사 
+0. src 폴더의 'friends모델_v3_roberta_submit.py' 복사
 혹은 
 https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sharing 실행
 1. 구글 colab에서 실행하는 것을 권고(로컬 사용시 version.txt에 있는 환경을 모두 설치해야함)
