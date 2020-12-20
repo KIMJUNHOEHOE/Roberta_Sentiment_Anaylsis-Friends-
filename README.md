@@ -20,7 +20,7 @@ https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sh
 
 
 ## 데이터 출처
-- https://github.com/e9t/nsmc.git
+- http://doraemon.iis.sinica.edu.tw/emotionlines/
 
 ## 참고 소스코드 및 문헌
 
