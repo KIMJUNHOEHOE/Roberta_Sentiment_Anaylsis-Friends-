@@ -33,3 +33,6 @@ https://colab.research.google.com/drive/1Xs99-e4g6KS5Alu7z9CnrWX0J_f5HBsQ#scroll
 
 #### Hugging Face Transformers 공식 library
 https://huggingface.co/transformers/_modules/transformers/models/electra/modeling_electra.html#ElectraModel 참고
+
+#### S/W Membership json파일 불러오기
+https://www.secmem.org/blog/2020/07/19/Sentiment-Analysis/
