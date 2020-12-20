@@ -10,6 +10,7 @@ https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sh
   - 로컬 사용시 version.txt에 있는 환경 모두 설치 및 scr code 내의 경로 모두 변경 필요
 2. 구글 드라이브의 디렉토리와 Colab을 연동(colab 기준 코드 1~2번째 셀 실행)
 3. raw data에 있는 'Friends' 폴더를 다운받아 구글 드라이브 'drive/MyDrive'경로에 설치
+4. raw data에 있는 'en_data.csv' 파일을 다운받아 구글 드라이브 'drive/MyDrive'경로에 설치
 4. 구글 colab 런타임 유형 변경 > GPU환경
 5. 모두 실행
 
