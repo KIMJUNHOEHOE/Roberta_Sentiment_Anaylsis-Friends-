@@ -3,7 +3,7 @@ Transformers Roberta(base) 모델을 활용한 감성분석(시트콤 Friends da
 
 ## 실행방법
 
-0. src 폴더의 'friends모델_v3_roberta_submit_best.py' 복사
+0. src/final 폴더의 'friends모델_v3_roberta_submit_best.py' 복사
 혹은 
 https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sharing 실행
 1. 구글 colab에서 실행하는 것을 권고(아래 방법은 구글 colab 실행 기준)
@@ -14,7 +14,8 @@ https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sh
 5. 모두 실행
 
 ## 모델별 실행결과
-- src 폴더의 'friends모델_v3_roberta_submit_best.py' 가 가장 성능 우수
+- src/final 폴더의 'friends모델_v3_roberta_submit_best.py' 가 가장 성능 우수
+- src/trial 폴더의 기타 모델 성능은 아래와 
 
 ![image](https://user-images.githubusercontent.com/43465126/102692006-f0868a80-4253-11eb-870b-6be5fcb39d9d.png)
 
@@ -32,3 +33,6 @@ https://colab.research.google.com/drive/1Xs99-e4g6KS5Alu7z9CnrWX0J_f5HBsQ#scroll
 
 #### Hugging Face Transformers 공식 library
 https://huggingface.co/transformers/_modules/transformers/models/electra/modeling_electra.html#ElectraModel 참고
+
+#### S/W Membership json파일 불러오기
+https://www.secmem.org/blog/2020/07/19/Sentiment-Analysis/
