@@ -157,11 +157,11 @@ labels_val = val_data['label'].values
 sen_test = test_data['document']
 labels_test = test_data['label'].values
 
-# imbalanced class label data
-class_weights = class_weight.compute_class_weight('balanced',
-                                                 np.unique(labels_train),
-                                                 labels_train)
-class_weights
+# # imbalanced class label data
+# class_weights = class_weight.compute_class_weight('balanced',
+#                                                  np.unique(labels_train),
+#                                                  labels_train)
+# class_weights
 
 """### Electra baseline 모델 구축"""
 
@@ -327,8 +327,8 @@ scheduler = get_linear_schedule_with_warmup(optimizer,
                                             num_training_steps = total_steps)
 
 # 손실함수 설정; softmax와 cross-entropy를 합쳐놓은 것, 데이터 불균형이 심하므로 weight 넣어준다
-weights = torch.tensor(class_weights).to(device, dtype= torch.float32)
-loss_fn = torch.nn.CrossEntropyLoss(weight=weights).to(device)
+# weights = torch.tensor(class_weights).to(device, dtype= torch.float32)
+loss_fn = torch.nn.CrossEntropyLoss().to(device)
 
 # 정확도 계산 함수
 def flat_accuracy(preds, labels):
