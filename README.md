@@ -16,7 +16,7 @@ https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sh
 
 ## 모델별 실행결과
 - src/final 폴더의 'friends모델_v3_roberta_submit_best.py' 가 가장 성능 우수
-- src/trial 폴더의 기타 모델 성능은 아래와 
+- src/trial 폴더의 기타 모델 성능은 아래와 같음
 
 ![image](https://user-images.githubusercontent.com/43465126/102692006-f0868a80-4253-11eb-870b-6be5fcb39d9d.png)
 
