@@ -24,11 +24,11 @@ https://colab.research.google.com/drive/1UO9wTMHJaZZcYeVLi0GU11ndiOfD7QqN?usp=sh
 
 ## 참고 소스코드 및 문헌
 
-### Hugging Face BERT Chris McCormick의 오픈소스 
+#### Hugging Face BERT Chris McCormick의 오픈소스 
 https://colab.research.google.com/drive/1PHv-IRLPCtv7oTcIGbsgZHqrB5LPvB7S#scrollTo=PGnlRWvkY-2c
 
-### 네이버 영화리뷰 감정분석 with Hugging Face BERT
+#### 네이버 영화리뷰 감정분석 with Hugging Face BERT
 https://colab.research.google.com/drive/1Xs99-e4g6KS5Alu7z9CnrWX0J_f5HBsQ#scrollTo=muU2kS2GCh4y
 
-### Hugging Face Transformers 공식 library
+#### Hugging Face Transformers 공식 library
 https://huggingface.co/transformers/_modules/transformers/models/electra/modeling_electra.html#ElectraModel 참고
